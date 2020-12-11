@@ -67,7 +67,7 @@
                             <div class="card bg-light mb-3">
                                 <div class="card-header text-info"><b>Mars Facts</b></div>
                                 <div class="card-body table-striped">
-                                    {{ mars["pd_table_html"] }}
+                                    {{ mars["pd_table_html"] | safe }}
                                 </div>
                             </div>
                         </div>
